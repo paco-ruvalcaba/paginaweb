@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  }
+body {
+  background-color: lightgray;
+  font-family: Arial;
+  padding: 10px;
+  }
+.centrar {
+  text-align: center;
+  }
+td,th{
+  padding: 2px;
+  text-align: left;
+  border: 0px solid;
+  border-color: #444444;
+  }
+li{
+  padding: 5px;
+  }
+table {
+  width: 75%;
+  padding: 2px;
+  <!-- border-collapse: collapse; -->
+  <!-- border-spacing: 15px; -->
+  <!-- border-color: coral; -->
+  }
+.grid-container {
+  display: grid;
+  grid-template-columns: 33%;
+  margin: 20px;
+  justify-content: center; /* centra horizontalmente */
+}
+.card {
+  padding: 20px;
+  margin-top: 20px;
+ }
+
