@@ -30,6 +30,7 @@ table {
   grid-template-columns: 33%;
   margin: 3px;
   justify-content: center; /* centra horizontalmente */
+  background-color:dodgerblue;
 }
 .card {
   padding: 20px;
