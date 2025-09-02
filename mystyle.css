@@ -30,11 +30,12 @@ table {
   grid-template-columns: 70%;
   margin: 3px;
   justify-content: center; /* centra horizontalmente */
-  background-color:dodgerblue;
+  /* background-color:dodgerblue; */
 }
 .card {
   padding: 20px;
   margin-top: 1px;
-  background-color:salmon;
+  text-align:center;
+  /* background-color:salmon; */
  }
 
