@@ -27,7 +27,7 @@ table {
   }
 .grid-container {
   display: grid;
-  grid-template-columns: 33%;
+  grid-template-columns: 70%;
   margin: 3px;
   justify-content: center; /* centra horizontalmente */
   background-color:dodgerblue;
