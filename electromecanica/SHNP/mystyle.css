@@ -27,12 +27,12 @@ table {
   }
 .grid-container {
   display: grid;
-  grid-template-columns: 33%;
+  grid-template-columns: 90%;
   margin: 3px;
   justify-content: center; /* centra horizontalmente */
 }
 .card {
-  padding: 20px;
+  padding: 12px;
   margin-top: 1px;
  }
 
