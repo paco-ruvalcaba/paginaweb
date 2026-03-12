@@ -1,32 +1,96 @@
+<!-- Lo mismo que prueba3.html pero ahora con menú en la parte superior. Además el menú es responsivo. -->
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil Académico - Francisco Ruvalcaba Granados</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
 
-  <!-- This will set the viewport of your page, which will give the browser instructions on how to control the page's dimensions and scaling. -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Menú superior -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Paco Ruvalcaba</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" aria-controls="navbarNav" 
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#formacion">Formación</a></li>
+        <li class="nav-item"><a class="nav-link" href="#docencia">Docencia</a></li>
+        <li class="nav-item"><a class="nav-link" href="#publicaciones">Publicaciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-  <title>Paco Ruvalcaba G.</title>
-  <link rel="stylesheet" href="mystyle.css">
-  </head>
-  <body>
-    <div class="centrar">
-      <img src="teclerdo.png" width=6%>
-      <img src="utt.png" width=9%>
-    </div>
-    <br>
-    <hr>
-    
-    <div class="grid-container">
-      <div class="card">
-        <h1><a href="electromecanica/index.html">Ingeniería Electromecánica</a></h1>
-        <h1><a href="industrial/index.html">Ingeniería Industrial</a></h1>
-        <h1><a href="posgrado/index.html">Posgrado</a></h1>
-        <h1><a href="cursos/index.html">Cursos de Capacitación</a></h1>
-      </div>
-    </div>
-    <hr><br><br>
-    <p><a href="temas_interes/index.html">Temas de Interés</a></p>
-    <!-- <img src="https://kroki.io/plantuml/svg/eNqdVktv00AQvvdXrIxQpYikEjcqqAqliAOVykNcEIom64m9dB9mH2nDr2c2Xm8Se1shDlHs3Xl-882ML50H65XQtYLuZPbjmRRN61cy4E9WVY3wVXUyGx9DXe-OZ_HZ8lZszMI_9KJj2UV_Oluyt43FBizzpjaOSfolXTf1sLKgeZuc9C9LDQqTqSuLwIIGZkEB40YzbdTKYtbcCRfjmafQp2bJ7rUUBAUw-V-WNznVm4DOW2AoWZBeKEPX3CgV4WSoGYe691AyAxMzhBgQYvSLOu4FgcdBomNbZlEZD-5kCiFvkd-ZUK7KfDWgUMhrivCWOWQq4AZZC1zExCQ8Upuvg-S_VmgctzQaM71a7zt3fnZGTGzDakEgnkmxoreXw39G68p0Auw86hPLgiZsOuOEN1aYCLoUGqHgL9WlhJIaUGLVN3zwpigErCg3EqvFet1LLdlrJ_7g-auLW6DibtBSPdnvgBHkFpgyJCuIIoZ1aA0Bly6qjjIilbpkf40-NczoQuhyE0vTlJOeE_4Rq5RTuu6Evuuva-TGgs9kmQg0Frp2uJ1eg5SPOKb8vN--qZ63bM6eu4oOJ8RWaBucaE9p-CE4QUQY843tmxu4DyB7B5SQbnZRqE3mXmIsaI9EIbvvGE38NonQQ01vTCxkmmjMUIurFdExSU3h78IAA70QRRuh9w6oyclnqWpdcG1ZbYKmh8b9i8ndCCmPNBr0bBxboSM74GZuwwYkhxWc5b7bPjUnJ1E49CPolz2cCxx2C-H8OQgfJ0uGuqYhW1W0xpriOLFqqNBO0x7oRSZAnHP0GPWFbkruTfI_te1acz8OGb2gVvZQVvDgg8uU6ce7i2uCnmLDx6AOFuP5MFNFHAFRRjMnmiBQ1-bojibsWlhlCk4ps8HjJ0EmDtbJEKx7ag8Vc5ulm356LnfLxgXVZ_3EJI1KCrWDX9gDNzI9bkdeD7FfpYaqhUW-G-oJ-Pl-AyQRkAdSuX_Hlk2X-Xl4etiG27WQmD9t9nLI29776c2W3Vrzi3yd9loXCZov12_f31yPfMpc-4_AMbJYilz4-F0UqXCU4NFouqOrDAcR1z4u291n4L7HBUMzL_hh5hFbVCcj2sdKQ6_EdUKJ70bmUfO9M9aOmi-a5mA7zNZPLomdwxflX-OTK1U="> -->
-  </body>
+<!-- Contenido principal -->
+<div class="container mt-4">
+  <section id="inicio">
+    <h2>Inicio</h2>
+    <p>Doctorando en Ciencias en Ingeniería Eléctrica.<br>Control Inteligente.</p>
+    <!-- <p>Enlaces:  -->
+      <a href="https://github.com/tuusuario">GitHub</a> | 
+      <a href="mailto:francisco.rg@itslerdo.edu.mx">e-mail</a>
+      <!-- <a href="https://linkedin.com/in/tuusuario">LinkedIn</a> |  -->
+      <!-- <a href="https://scholar.google.com/">Google Scholar</a> -->
+    <!-- </p> -->
+  </section>
+
+  <section id="formacion" class="mt-5">
+    <h2>Formación Académica</h2>
+    <ul>
+      <li>Licenciatura en ...</li>
+      <li>Maestría en ...</li>
+      <li>Doctorado en ...</li>
+    </ul>
+  </section>
+
+  <section id="docencia" class="mt-5">
+    <h2>Docencia</h2>
+    <p>Materias actuales:</p>
+    <ul>
+      <li>Ingeniería Electromecánica</li>
+      <li>Ingeniería Industrial</li>
+    </ul>
+    <p>Materias impartidas anteriormente:</p>
+    <ul>
+      <li>Curso de Capacitación en ...</li>
+    </ul>
+  </section>
+
+  <section id="publicaciones" class="mt-5">
+    <h2>Publicaciones y Tesis</h2>
+    <ul>
+      <li>Artículo en revista X (2024)</li>
+      <li>Tesis dirigida: “Título de tesis” (2023)</li>
+    </ul>
+  </section>
+
+  <section id="proyectos" class="mt-5">
+    <h2>Proyectos</h2>
+    <ul>
+      <li>Sistema educativo modular en Python + SQLite</li>
+      <li>Integración de Reveal.js en Chamilo</li>
+      <li>Prácticas de Matlab en control industrial</li>
+    </ul>
+  </section>
+
+  <section id="contacto" class="mt-5">
+    <h2>Contacto</h2>
+    <p>Correo: paco@example.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/tuusuario">Perfil</a></p>
+  </section>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
-
